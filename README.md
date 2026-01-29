@@ -1,27 +1,27 @@
-LogAnalyzerAI (CLI)
+# LogAnalyzerAI (CLI)
 
-LogAnalyzerAI is a C# command-line application that uses OpenAI to analyze .log and .txt files.
+Ai Log Explainer is a C# command-line application that uses OpenAI to analyze .log and .txt files.
 It reads logs as raw plaintext, summarizes the issue in clear language, identifies likely root causes, and suggests actionable fixes.
 
 Built for developers who want fast signal instead of manually parsing noisy logs.
 
-Features
+# Features
 
-Plaintext analysis of .log and .txt files
+- Plaintext analysis of .log and .txt files
 
-AI-generated simplified explanation of errors
+- AI-generated simplified explanation of errors
 
-Bullet-pointed possible causes
+- Bullet-pointed possible causes
 
-Bullet-pointed suggested fixes
+- Bullet-pointed suggested fixes
 
-Strict, predictable output format
+- Strict, predictable output format
 
-Secure local storage of API key
+- Secure local storage of API key
 
-Lightweight, single-executable CLI
+- Lightweight, single-executable CLI
 
-How It Works
+# How It Works
 
 On first run, the app asks for your OpenAI API key
 
@@ -37,9 +37,9 @@ Sends the content to OpenAI with a strict analysis prompt
 
 Outputs a structured analysis report to the console
 
-Requirements
+# Requirements
 
-.NET 6.0 or newer
+- .NET 6.0 or newer
 
 Internet connection
 
@@ -49,7 +49,7 @@ Running the Application
 
 Build and run the project using the .NET CLI or your IDE:
 
-dotnet run
+`dotnet run`
 
 
 Follow the on-screen prompts to enter:
@@ -58,18 +58,19 @@ Your OpenAI API key (first run only)
 
 The full path to a .log or .txt file
 
-Supported Files
+# Supported Files
 
-.log
+- .log
 
-.txt
+- .txt
 
 Other formats are rejected.
 
-Output Format
+# Output Format
+
 
 The AI is strictly instructed to output only the following sections, in this exact order:
-
+```plaintext
 Simplified Explanation:
 - Clear, human-readable explanation of the issue.
 
@@ -81,17 +82,17 @@ Suggested Fixes:
 
 
 No introductions, no disclaimers, no repeated log content.
+```
 
 API Key Storage
 
 The API key is stored locally at:
 
-Windows:
-%APPDATA%\LogAnalyzerAI\config.json
+`%APPDATA%\LogAnalyzerAI\config.json`
 
 The key is only accessed by the application.
 
-Technical Details
+# Technical Details
 
 Reads logs with a safe character cap (12,000 chars)
 
@@ -103,7 +104,7 @@ Temperature: 0.2 (low randomness, consistent output)
 
 Fully async execution
 
-Limitations
+# Limitations
 
 Only the first 12,000 characters are analyzed
 
@@ -113,8 +114,7 @@ AI suggestions are best-effort and must be validated
 
 No chunking or streaming yet
 
-Disclaimer
+# Disclaimer
 
 This tool provides diagnostic assistance, not guaranteed fixes.
 Always review suggestions before applying them in production.
-
