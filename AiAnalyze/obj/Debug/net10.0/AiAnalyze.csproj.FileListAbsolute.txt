@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\bin\Debug\net10.0\AiAnalyze.exe
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\bin\Debug\net10.0\AiAnalyze.deps.json
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\bin\Debug\net10.0\AiAnalyze.runtimeconfig.json
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\bin\Debug\net10.0\AiAnalyze.dll
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\bin\Debug\net10.0\AiAnalyze.pdb
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\obj\Debug\net10.0\AiAnalyze.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\obj\Debug\net10.0\AiAnalyze.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\obj\Debug\net10.0\AiAnalyze.AssemblyInfo.cs
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\obj\Debug\net10.0\AiAnalyze.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\obj\Debug\net10.0\AiAnalyze.dll
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\obj\Debug\net10.0\refint\AiAnalyze.dll
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\obj\Debug\net10.0\AiAnalyze.pdb
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\obj\Debug\net10.0\AiAnalyze.genruntimeconfig.cache
+C:\Users\admin\source\repos\AiAnalyze\AiAnalyze\obj\Debug\net10.0\ref\AiAnalyze.dll
