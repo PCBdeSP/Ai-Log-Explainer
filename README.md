@@ -1,4 +1,4 @@
-# LogAnalyzerAI (CLI)
+# Ai Log Explainer (CLI)
 
 Ai Log Explainer is a C# command-line application that uses OpenAI to analyze .log and .txt files.
 It reads logs as raw plaintext, summarizes the issue in clear language, identifies likely root causes, and suggests actionable fixes.
